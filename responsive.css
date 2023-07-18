@@ -1,0 +1,30 @@
+@media (max-width: 576px){
+    body{
+        background-color: #fff;
+    }
+    
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+
+    .menu-box ul{
+        flex-direction: column;
+        margin-top: 18px;
+        justify-content: center;
+        
+    }
+    .menu-box ul li{
+        text-align: center;
+        width: 100%;
+        margin:15px auto;  
+             
+    }
+    .menu-box ul .follow-icon{
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+
+  }
+}
