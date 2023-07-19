@@ -81,7 +81,9 @@
 .card{
     margin-bottom: 70px;
 }
-
+.card.hover-div {
+    margin:auto;
+}
 /* third-banner-section  */
 .third-banner-container{
     flex-direction: column;
@@ -121,10 +123,19 @@
 .catagory{
 width: auto;
   }
+
   .catergory-icon{
     width: 20px;
     margin-left:0;
    }
+
+ .hover-card{
+    margin: 0 auto;
+  }
+.last-card{
+    margin-top: 90px;
+}
+
 
 
 /* footer-section  */
