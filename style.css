@@ -318,7 +318,7 @@ a {
  width: 40px;
 }
 .catagory:hover{
-    color: #F948B2 !important;
+    color: #F948B2;
     cursor: pointer;
     border:1px solid #F948B2;
 }
