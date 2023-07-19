@@ -182,15 +182,53 @@ a {
 }
 
 /* online-games-card- */
+
 .games-card-container{
     max-width: 1400px;
     margin: 60px auto;
     display: flex;
     justify-content: space-between;
 }
-.description, .title{
+.title-card ,.description{
     text-align: center;
+}
+.title-color{
+    color: #0B0223;
+    font-size: 2rem;
 }
 .card img{
     width: 280px;
+}
+
+/* third-banner-section  */
+.third-banner-container{
+    max-width: 1400px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.image-div img{
+    width: 100%;
+}
+
+.positon-image {
+   position: relative;
+   top: 215px;
+   right: 165px;
+   width: 240px;
+}
+.title-third-banner{
+    text-align: left;
+    font-size: 3rem;
+    line-height: 33px;
+}
+.third-banner-description{
+    text-align: left;
+    font-size: 1.1rem;
+    color: #534C64;
+    margin-top: 20px;
+    line-height: 26px;
+
 }

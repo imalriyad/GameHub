@@ -39,7 +39,8 @@
 }
 .banner-text{
    max-width: 100%;
-   margin: 90px auto; 
+   margin: 0px auto; 
+   margin-top: 90px;
    padding: 90px 30px;
    text-align: center;
 }
@@ -54,6 +55,7 @@
 .second-banner-conainer{
     flex-direction: column;
     gap: 40px;
+    padding: 0 20px;
 }
 .image-box img{
     width: 100%;
@@ -73,11 +75,33 @@
 
 /* online-games-card- */
 .games-card-container{
-    max-width: 1400px;
-    margin: 60px auto;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
 }
+.card{
+    margin-bottom: 70px;
+}
+
+/* third-banner-section  */
+.third-banner-container{
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+}
+.image-div img{
+    width: 70%;
+}
+
+.positon-image {
+    width: 100px;
+    position: relative;
+    top: -65px;
+    left: 110px;
+}
+.text-div{
+    margin: 0 45px;
+}
+
 }
 
 /* responsive queres for Tablet-devices  */
@@ -118,4 +142,30 @@
         width: 500px;
      }
 
+     /* games-card-container */
+.games-card-container{
+    flex-direction: column;
+    text-align: center;
+}
+.card{
+    margin-bottom: 70px;
+}
+
+/* third-banner-section  */
+.third-banner-container{
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+}
+.image-div img{
+    width: 70%;
+}
+
+.positon-image {
+    width: 100px;
+    position: relative;
+    top: -70px;
+    left:220px
+
+}
 }
