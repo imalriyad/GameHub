@@ -229,7 +229,6 @@ a {
      height: 100%;
      width: 100%;
      visibility: visible;
-     transition: .5s;
      opacity: 1;
  
  }
