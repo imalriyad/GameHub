@@ -10,6 +10,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+
 /* header-section-stayles  */
 
 nav {
@@ -21,7 +22,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding: 18px;
 }
 
 .logo-box {
@@ -66,4 +67,130 @@ a {
 }
 .follow-icon>span{
     margin-left: 10px;
+}
+
+/* banner-section-styles  */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./images/Vector\ 2.png"),linear-gradient(223deg, rgba(140, 87, 238, 0.199) 0%, rgba(241, 68, 174, 0.03) 100%);;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 30px;
+
+}
+
+.banner-text>h2{
+    font-size: 2rem;
+    color: #0B0223;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.banner-text>h1{
+    font-size: 3.75;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.icon-text { 
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+  }
+  
+  .text {
+    vertical-align: middle;
+    font-size: 1.1rem;
+    color: #534C64;
+  }
+  .primary-btn{
+    border-radius: 48px;
+    color: #FFF;
+    background:#FF42A5;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 40px;
+    cursor: pointer;
+ }
+ .snd-btn{
+    background-color: #4EC5F7;
+    margin-left: 20px;
+ }
+.banner-btn{
+    margin-top: 37px;
+}
+
+/* second-banner  */
+.second-banner-conainer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-bottom: 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.image-box img{
+   width: 700px;
+}
+
+.title{
+    font-size: 2rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.second-banner-textbox{
+    text-align: center;
+}
+.description{
+    font-size: 1rem;
+    color: #534C64;
+    line-height: 25px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+   
+}
+.dexciption-below span{
+    font-weight: 400;
+    font-size: .9rem;
+    text-align: left;
+}
+
+.dexciption-below{
+    margin-top: 20px;
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+/* online-games-card- */
+.games-card-container{
+    max-width: 1400px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.description, .title{
+    text-align: center;
+}
+.card img{
+    width: 280px;
 }

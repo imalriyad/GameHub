@@ -1,8 +1,11 @@
-@media (max-width: 576px){
+
+/* responsive queres for Mobile-devices  */
+
+@media screen and (max-width: 576px){
     body{
         background-color: #fff;
     }
-    
+
     .header-container {
         flex-direction: column;
         justify-content: center;
@@ -25,6 +28,94 @@
     text-align: center;
     width: 100%;
     margin: 10px auto;
-
+   
   }
+  /* banner-styles  */
+  .banner-container{
+  flex-direction: column-reverse;
+  gap:30px;
+  max-width: 576px;
+  text-align: center;
+}
+.banner-text{
+   max-width: 100%;
+   margin: 90px auto; 
+   padding: 90px 30px;
+   text-align: center;
+}
+
+.primary-btn{
+    margin: 0px 20px 20px 20px;
+ }
+
+.banner-img img{
+  max-width: 100%;
+}
+.second-banner-conainer{
+    flex-direction: column;
+    gap: 40px;
+}
+.image-box img{
+    width: 100%;
+ }
+ .second-banner-textbox{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 20px;
+ }
+ .dexciption-below{
+    text-align: center;
+
+}
+.desciption{
+    font-size: .5rem;
+}
+
+/* online-games-card- */
+.games-card-container{
+    max-width: 1400px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+/* responsive queres for Tablet-devices  */
+@media screen and (min-width:576px) and (max-width:960px) {
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .menu-box ul li{
+        text-align: center;
+        display: flex;
+        justify-content: center; 
+             
+    }
+    .menu-box ul .follow-icon{
+        margin: 0;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+       
+    }
+    .banner-text{
+        margin-top: 90px;
+    }
+    .second-banner-conainer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .second-banner-textbox{
+        text-align: center;
+        margin-bottom: 10px;
+     }
+     .dexciption-below{
+        text-align: center;
+    }
+    .image-box img{
+        width: 500px;
+     }
+
 }
